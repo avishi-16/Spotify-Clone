@@ -15,6 +15,7 @@ import speaker_icon from './speaker.png'
 import stack_icon from './stack.png'
 import zoom_icon from './zoom.png'
 import plus_icon from './plus.png'
+import profile_icon from './profile.png'
 import arrow_icon from './arrow.png'
 import mini_player_icon from './mini-player.png'
 import queue_icon from './queue.png'
@@ -46,6 +47,7 @@ import song3 from  './song3.mp3'
 export const assets = {
     bell_icon,
     home_icon,
+    profile_icon,
     SpotifyLogo,
     like_icon,
     loop_icon,
