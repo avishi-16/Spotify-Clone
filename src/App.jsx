@@ -17,7 +17,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="h-[10%]">
+      <div className="fixed bottom-0 left-0 w-full z-10">
         <Player />
       </div>
     </div>
