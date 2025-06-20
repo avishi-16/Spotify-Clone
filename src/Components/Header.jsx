@@ -17,7 +17,7 @@ const Header = () => {
                     />
                 </div>
                 <div className='flex ml-93'>
-                <button className='px-4 py-1.5 bg-white text-[18px] text-black rounded-full mt-4 mb-2 font-bold
+                <button className='h-10 mt-3.5 bg-white text-[18px] text-black rounded-full font-bold
                  w-45 cursor-pointer transition-transform duration-300 hover:scale-105'>Explore premium</button>
                   <img className='w-11 h-11 mt-2.5 ml-14 transition-transform duration-300 hover:scale-105 cursor-pointer' src={assets.profile_icon} />
                 </div>

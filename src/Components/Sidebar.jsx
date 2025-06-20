@@ -6,7 +6,7 @@ const Sidebar = () => {
       <div className="pl-6 pt-4 cursor-pointer">
         <img className="w-15" src={assets.SpotifyLogo} alt='' />
       </div>
-      <div className='bg-[#121212] h-[85%] rounded w-110 mt-5'>
+      <div className='bg-[#121212] h-full rounded w-110 mt-5'>
         <div className="flex justify-between items-center px-4 pt-4">
           <div className='flex items-center'>
             <img className='w-7' src={assets.stack_icon} alt='' />
