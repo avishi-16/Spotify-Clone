@@ -4,8 +4,13 @@ import Player from "./Components/Player";
 import Home from "./Components/Home";
 import Album from "./Components/Album";
 import { Routes, Route } from 'react-router-dom';
+import { useContext } from "react";
+import { PlayerContext } from "./Context/PlayerContext";
 
 function App() {
+
+  const {audioRef,track} = useContext(PlayerContext)
+
   return (
     <div className="h-screen bg-black select-none flex flex-col">
       <div className="flex flex-1 px-5 pt-5 gap-5">
@@ -24,6 +29,7 @@ function App() {
       </div>
       <div className="fixed bottom-0 left-0 w-full z-10">
         <Player />
+        <audio ref={audioRef} src={track.file} preload="auto"></audio>
       </div>
     </div>
   );
